@@ -1,11 +1,15 @@
 /*
  * DS1307.cpp
- * Kyle Isom <isomk@kyleisom.net>
+ * mikeyancey <mikeyancey@gmail.com>
  *
  * Arduino library to use DS1307
  * I2C address is hardcoded as 110100 - the data sheet implicitly states
- * that only one DS1307 can be on the bus. I was inspired by some of the
- * code at http://www.glacialwanderer.com/hobbyrobotics/?p=12
+ * that only one DS1307 can be on the bus.
+ *
+ * I originally obtained this code from Kyle Isom, whom I cannot find now.
+ * I used the DS1307 with a clock project in 2010/26/10.
+ * Finally, with Arduino 2.x, I've updated it for some modern conventions and 
+ * updated how Wire functions have changed.
  */
  
 #include <Wprogram.h>
