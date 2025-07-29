@@ -1,0 +1,46 @@
+#######################################
+# Syntax Coloring Map For ThumbStick  #
+#######################################
+
+#######################################
+# Datatypes (KEYWORD1)                # 
+#######################################
+
+DS1307  	KEYWORD1
+
+#######################################
+# Methods and Functions (KEYWORD2)
+#######################################
+begin		KEYWORD2
+check24Hour	KEYWORD2
+getTime		KEYWORD2
+getDate		KEYWORD2
+dayOfWeek	KEYWORD2
+getDTC		KEYWORD2
+enableRTC	KEYWORD2
+disableRTC	KEYWORD2
+set24		KEYWORD2
+set12		KEYWORD2
+setTime		KEYWORD2
+setDate		KEYWORD2
+setDayOfWeek	KEYWORD2
+setDTC		KEYWORD2
+bcd_to_dec	KEYWORD2
+dec_to_bcd	KEYWORD2
+setSQWE		KEYWORD2
+isEnabled	KEYWORD2
+readRAM		KEYWORD2
+writeRAM	KEYWORD2
+
+#######################################
+# Constants (LITERAL1)
+#######################################
+#DS1307_ADDR		LITERAL
+#DS1307CH		LITERAL
+#DS1307_SEC		LITERAL
+#DS1307_MODE		LITERAL
+#DS1307_24HR		LITERAL   
+#DS1307_AMPM		LITERAL
+#DS1307_12HR		LITERAL
+#DS1307_EPOCH	LITERAL
+
